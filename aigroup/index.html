@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lnct AI Group</title>
+
+
+
+  <style>
+  /* Using panels to display blog date */
+          .panel1{
+            background-color: #8980fe;
+          }
+          .panel.date {
+          margin-bottom: 30px;
+          width: 60px;
+          text-align: center;
+          }
+
+          .panel.date .month {
+          padding: 2px 0px;
+          font-weight: 700;
+          text-transform: uppercase;
+          }
+
+          .panel.date .day {
+          padding: 3px 0px;
+          font-weight: 700;
+          font-size: 1.5em;
+          }
+          @media(max-width:768px)
+              {
+                 div#sumit{
+                   float=left;
+                 }
+              }
+  </style>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/parallax.min.js"></script>
+  <script type="text/javascript" src="js/newsevents.js"></script>
+  <script type="text/javascript" src="js/events.js"></script>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/ionicons.min.css" rel="stylesheet">
+  <link href="css/pe-icon-7-stroke.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="css/logoiconfont.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" title="main-css">
+
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <link rel="stylesheet" href="css/news.css">
+
+  <script type="text/javascript" src="js/news.js"></script>
+
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.1.99/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script>
+        $(document).ready(function(){
+          function scrollToElement(selector) {
+            $('html,body').animate({
+              scrollTop: $(selector).offset().top
+                },2000);
+          };
+
+        $(document).on('click', 'a.uruna', function () {
+          scrollToElement($(this).attr('href'));
+            });
+          });
+  </script>
+
+  </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="70" id="home">
+
+      <!-- Begin Header -->
+	      <header>
+		      <!-- Begin Navigation -->
+		        <nav class="navbar navbar-default navbar-fixed-top">
+			        <div class="container-fluid">
+				        <div class="row">
+					        <!-- Brand and toggle get grouped for better mobile display -->
+					        <div class="navbar-header">
+                    <a href="#" class="navbar-brand" style="padding-top:5%;color:white;"><img src="images/logo.png" alt="Lnct logo" style="width:75%;height:75%;padding-left:50px;"></a>
+				            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  					          <span class="sr-only">Toggle navigation</span>
+						          <span class="icon-bar"></span>
+						          <span class="icon-bar"></span>
+						          <span class="icon-bar"></span>
+  				          </button>
+				          </div>
+
+        					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        						<ul class="nav navbar-nav navbar-right">
+        							<li class="w3-hover-#8980fe"><a href="#home" data-id="home" class="scroll-link uruna">Home</a></li>
+        							<li class="w3-hover-deep-purple"><a href="#hello-intro" data-id="hello-intro" class="scroll-link uruna">About</a></li>
+									    <li class="w3-hover-deep-purple"><a href="#explore" data-id="explore" class="scroll-link uruna">Explore</a></li>
+    									<li class="w3-hover-deep-purple"><a href="#events" data-id="events" class="scroll-link uruna">Announcement</a></li>
+    									<li class="w3-hover-deep-purple"><a href="#Gallery" data-id="Gallery" class="scroll-link uruna">Gallery</a></li>
+    									<li class="w3-hover-deep-purple"><a href="#contact" data-id="contact" class="scroll-link uruna">Contact</a></li>
+                      <li class="w3-hover-deep-purple"><a href="https://goo.gl/forms/kPxTyAGkZRTk5I7j2" data-id="contact" class="scroll-link uruna" target="none">Registration</a></li>
+
+								  </ul>
+					      </div><!-- /.navbar-collapse -->
+				       </div>
+			        </div><!-- /.container-fluid -->
+		        </nav>
+		      <!-- End Navigation -->
+	        </header>
+	        <!-- End Header -->
+
+	        <!-- Begin Jumbotron -->
+        	<div class="jumbotron jumbotron-main" id="home">
+        		<div id="particles-js"></div><!-- /.particles div -->
+        		  <div class="container center-vertically-holder">
+        			  <div class="center-vertically">
+        				  <div id="scaleReveal" class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
+        					  <div class="ticker">
+        						  <h1><strong>LNCT AI GROUP</strong></h1>
+
+        					  </div>
+        					  <hr>
+        					  <p>Come,Touch, Feel &amp; Code &nbsp;Artificial Intelligence&nbsp;Like Never Before..</p>
+        					</div>
+        			  </div>
+        		  </div>
+        	  </div>
+        	<!-- End Jumbotron -->
+
+          <!-- Begin Hello Intro -->
+          <div id="hello-intro" class="pt60 pb60">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-2 col-sm-3">
+                  <h2 class="no-margin rotateLeftReveal">ABOUT.</h2>
+
+                </div>
+                <div class="col-lg-10 col-sm-9 mt30-xs">
+                  <h3 class="no-margin rightReveal">
+				   <p align=justify>Royal Academy of Engineering,UK under Newton Bhabha Fund has approved a Nation-wide initiative on <strong>"AI and deep learning Skilling and Research”</strong>. University College, London, Brunel University, London and Bennett University, India are collaborators of the project. NVIDIA and AWS Educate, Videoken and Edvantics are industry partners. The initiative got further boost when AICTE saw great merit in the initiative and has recommended all of its 10000 approved institutions to associate with the project. </p>
+				   <p align=justify>So,our collegehas taken initiative and joined as a <strong>Lead Zonal Partner</strong>of BENNETT University's<strong>"Mission Artificial Intelligence Start Up”</strong>,supported by Royal Academy of Engineering,UK;NVIDIA;Amazon;University College London and Brunel University London.</p>
+				   <p align=justify>To take this mission forward <strong>LNCT Group, Bhopal </strong>has formed a group named <strong>“AI RESEARCH GROUP”</strong> and this group invites all interested faculty and students of LNCT Group to be a part of this initiative.</p>
+				   <p align=justify>This is for all those people who love to explore the world of Artificial Intelligence, Machine Learning and Deep Neural Network.<strong>We intend to share our knowledge, experience and thoughts about AI/ML/DL through this Group.</strong> If you are reading this then we think you are the right person to join  this group. </p></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Hello Intro -->
+
+          <br>
+          <br>
+
+          <!-- NEWS  AND  EVENTS -->
+          <section id="explore">
+            <div id="hello-intro" class="d-block text-center" style="margin:60px 0;">    <h2 class="text-center">EXPLORE.</h2></div>
+            <div class="container" style="margin-left:12%;">
+              <figure class="snip1237">
+                <div class="image">
+                  <img src="images/book.jpg" alt="sample74"/><i class="ion-ios-clock-outline"></i>
+                    <div class="date"><span class="day">03</span><span class="month">Oct</span></div>
+                </div>
+                <figcaption>
+                  <h3 class="font-weight-bold">Free Online Books</h3>
+                    <p> <a href="http://www.deeplearningbook.org/" target="_blank">(1). Deep Learning</a> by Yoshua Bengio, Ian Goodfellow and Aaron Courville <br> <a href="http://aima.cs.berkeley.edu/" target="_blank">(2). Artificial Intelligence: A Modern Approach</a></p>
+                    <a href="http://aima.cs.berkeley.edu/" target="_blank" class="read-more">Read More</a>
+                </figcaption>
+              </figure>
+              <figure class="snip1237">
+                <div class="image">
+                  <img src="images/github.jpg" alt="sample87"/><i class="ion-ios-partlysunny-outline"></i>
+                  <div class="date"><span class="day">03</span><span class="month">Oct</span></div>
+                </div>
+                <figcaption>
+                  <h3>Github Repositories </h3>
+                  <p><a href="https://github.com/ZuzooVn/machine-learning-for-software-engineers" target="_blank">(1). Daily plan for studying to become a machine learning engineer</a><br><a href="https://github.com/cmusatyalab/openface" target="_blank">(2). Face recognition with deep neural networks</a></p>
+                  <a href="https://github.com/ZuzooVn/machine-learning-for-software-engineers" target="_blank" class="read-more">Read More</a>
+                </figcaption>
+              </figure>
+              <figure class="snip1237">
+                <div class="image">
+                  <img src="images/website.jpg" alt="sample74"/><i class="ion-ios-clock-outline"></i>
+                    <div class="date"><span class="day">03</span><span class="month">Oct</span></div>
+                </div>
+                <figcaption>
+                  <h3 class="font-weight-bold">Websites</h3>
+                  <p><a href="http://deeplearning.net/" target="_blank">(1). Deep Learning</a><br><a href="https://nlp.stanford.edu/" target="_blank">(2). Stanford edu</a><br><a href="http://news.startup.ml/" target="_blank">(3). Deep Learning News</a><br><br></p>
+                  <a href="http://deeplearning.net/" target="_blank" class="read-more">Read More</a>
+                </figcaption>
+              </figure>
+
+
+            </div>
+            <a href="news.html" target="_blank" class="btn btn-default btn-lg" style="width:50%;margin-left:25%;margin-top: 50px; class="text-center"">Explore More »</a>
+          </section>
+
+          <section id="events">
+            <div id="hello-intro" class="d-block text-center" style="margin:60px 0;">    <h2 class="text-center">ANNOUNCEMENT.</h2></div>
+            <div class="container" >
+              <div class="row">
+                <div class="col">
+                <div class="panel panel1" style="border:2px solid #8980fe; border-color:#8980fe;">
+                  <div class="panel-heading" style="border:2px solid #8980fe;background-color:#8980fe;">
+                    <h3 class="panel-title text-center" style="color:white;" >
+                      <i class="fa fa-calendar" style="font-size:24px"></i>
+                      <strong>ANNOUNCEMENT</strong>
+                    </h3>
+                  </div>
+                  <div class="panel-body" style="min-height:300px;">
+				   <div class="panel-body" style="min-height:300px;">
+             <ul class="media-list">
+               <li class="media">
+                 <div class="media-left" >
+                   <div class="panel text-center date" >
+                     <div class="panel-heading month" style="border:2px solid #8980fe;background-color:#8980fe;color:white;">
+                       <span class="panel-title strong" >
+                         Oct
+                       </span>
+                     </div>
+                     <div class="panel-body day" style="border:2px solid #8980fe;">
+                       12
+                     </div>
+                   </div>
+                 </div>
+                 <div class="media-body">
+                   <h4 class="media-heading">
+                     Prerequisite of Workshop on "Hands on Machine Learning"
+                   </h4>
+                   <h5>Venue : LNCTE Auditorium  ||  Time : 10:30 AM</h5>
+                   <ol>
+                     <li>1. Student’s name should be in the final registration list declared by the AI Group Officials (you can find the list by clicking SELECTED LIST or WAITING LIST below or they can find the same on our facebook page : https://www.facebook.com/lnctaigroup/?ti=as*).</li>
+                     <li>2. The workshop is a full day workshop. If you are coming to the workshop then you are supposed to attend full day (Attendance will be taken in both half).</li>
+                     <li>3. Entry will be provided only if student is having his/her own laptop otherwise you will not be entertained.</li>
+                     <li>4. Laptops should be fully charged (as no power source will be provided) with concerned software (You will get the link of software by today’s evening and you are supposed to come with that software installed).</li>
+                     <li>5. There is no facility of Internet. So, if internet is required then you can use your own source of Internet.</li><br>
+                     <p>NOTE : All students present in the the below list (both SELECTED and WAITING) are supposed to come by 10:30 AM sharp at LNCTE Auditorium. Late comers will not be allowed to enter.</p>
+                   </ol>
+                 </div>
+                 <a href="pdf/selected.pdf" target="_blank" class="btn btn-default btn-lg" style="width:25%;margin-left:25%; class="text-center"">SELECTED LIST</a>
+                 <a href="pdf/waiting.pdf" target="_blank" class="btn btn-default btn-lg" style="width:25%; class="text-center"">WAITING LIST</a>
+               </li><br>
+
+           </ul>
+                     <ul class="media-list">
+                       <li class="media">
+                         <div class="media-left" >
+                           <div class="panel text-center date" >
+                             <div class="panel-heading month" style="border:2px solid #8980fe;background-color:#8980fe;color:white;">
+                               <span class="panel-title strong" >
+                                 Oct
+                               </span>
+                             </div>
+                             <div class="panel-body day" style="border:2px solid #8980fe;">
+                               10
+                             </div>
+                           </div>
+                         </div>
+                         <div class="media-body">
+                           <h4 class="media-heading">
+                             Workshop on "Hands on Machine Learning"
+                           </h4>
+                           <p align=justify>The first workshop of “AI Research Group” is going to be held on 13th Octoberc2018. The list of participating students will be displayed on AI website (http://115.254.62.25:8080/aigroup/  and www.lnct.ac.in, under the tab Life@LNCT ) and WhatsApp group. Student may note that Laptop is compulsory for participating.
+                           </p>
+                         </div>
+                       </li>
+
+                   </ul>
+                    <ul class="media-list">
+                      <li class="media">
+                        <div class="media-left" >
+                          <div class="panel text-center date" >
+                            <div class="panel-heading month" style="border:2px solid #8980fe;background-color:#8980fe;color:white;">
+                              <span class="panel-title strong" >
+                                Oct
+                              </span>
+                            </div>
+                            <div class="panel-body day" style="border:2px solid #8980fe;">
+                              04
+                            </div>
+                          </div>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading">
+                            First Awareness Program of LNCT AI Group
+                          </h4>
+                          <p align=justify>As the Artificial Intelligence, Deep leaning and Machine learning are increasing becoming the must have skill for faculty, students and researcher in different engineering domains.In view of this our institutions becomes the Lead Zonal Partner of Bennet University, Greater Noida and we have formed AI Research Group of LNCT campus colleges. The first awareness program of this has been held on 4th October 2018 at F-17 (Student Activity Center).  Where around 300 students were given a overview of Artificial Intelligence, Deep leaning and Machine learning. The main speaker in the program were Dr. Manish Khemariya, Dr.Vivek Richhariya, Prof. Vijay Trivedi and Prof. Nikesh Tiwari.
+
+                          </p>
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <div id="hello-intro" class="d-block text-center" style="margin:80px 0;">
+        <h2 class="text-center">GALLERY.</h2>
+      </div>
+
+      <!--Carousel Gallery-->
+      <section id="Gallery">
+        <div class="carousel-gallery" >
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="images/AI-1.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/AI-1.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/AI-2.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/AI-2.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/AI-3.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/AI-3.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/ML-1.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/ML-1.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/ML-2.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/ML-2.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/ML-3.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/ML-3.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/AI-1.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/AI-1.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="images/AI-2.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url('images/AI-2.jpg');">
+                    <div class="overlay">
+                      <em class="mdi mdi-fullscreen"></em>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Begin Contact -->
+      <section id="contact" class="background2 section-padding">
+        <div class="container">
+          <div class="row mb30">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 section-title text-center">
+              <div id="hello-intro" class="d-block text-center" style="margin:20px 0;">
+                <h2 class="text-center">CONTACT.</h2>
+              </div>
+              <span class="section-divider mb15"></span>
+              <p class="no-margin scaleReveal">Our team is from LNCT Bhopal and we know how to deliver quality knowledge from miles away.</p>
+            </div><!-- /.column -->
+          </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.section -->
+      <!-- End Contact -->
+
+<!-- Begin Footer -->
+	<footer class="footer-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="theme-title">LNCT AI GROUP</h2>
+					<a href="#"><span class="ion-social-instagram social-icons-dark-hover mr15" style="font-size:20px;"></span></a>
+	        <a href="https://www.facebook.com/lnctaigroup/" target="_blank" style="font-size:20px;"><span class="ion-social-facebook social-icons-dark-hover mr15"></span></a>
+	        <a href="mailto:ai@lnct.ac.in" ><span class="ion-social-googleplus-outline social-icons-dark-hover" style="font-size:20px;"s></span></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 text-small text-center">
+					<hr>
+					<a href="#home" class="scroll-link uruna"><button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top ">Up</button></a>
+					<p class="no-margin">Copyright&copy; LNCT GROUP, 2018. <br>Design and Developed by Computer Science & Engineering, LNCT Bhopal</p><br>
+          <a href="#home" class="scroll-link uruna">You are our <img src="https://www.reliablecounter.com/count.php?page=lnct.ac.in&digit=style/plain/7/&reloads=0" alt="" title="" border="0"> number Visitor</a><br />
+				</div>
+			</div>
+		</div>
+	</footer>
+
+  <script type="text/javascript" src="js/particles.min.js"></script>
+	<script type="text/javascript" src="js/particlesRun.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="js/form-validator.min.js"></script>
+	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>
+	<script type="text/javascript">
+		/* ---- Counter (our count) ---- */
+		$('#ourcount').one('inview', function(event, isInView) {
+			if (isInView) {
+				$('.timer').countTo({speed: 3000});
+			}
+		});
+	</script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="js/style-switcher.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+  <script src="js/gallery.js"></script>
+
+  </body>
+</html>

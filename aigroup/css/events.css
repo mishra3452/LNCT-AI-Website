@@ -1,0 +1,202 @@
+/*
+Name:LNCT AI GROUP
+Version:1.4
+Author:AKSHAY & SUMIT
+*/
+
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.noselect {
+  user-select: none;
+  cursor: default;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+  line-height: 145%;
+  background: #f9f9f9;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.all {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+.overlay.current {
+  opacity: 1;
+  visibility: visible;
+  z-index: 3;
+}
+.overlay .top {
+  position:relative;
+  height:300px;
+  width:100%;
+  background:crimson;
+}
+.overlay .content {
+  min-height: 200vh;
+}
+
+.home {
+  position:relative;
+  opacity:0;
+  z-index:2;
+  transition:1s all;
+}
+.home.current {
+  opacity:1;
+}
+.swiper-container.pagescroll {
+  width: 100%;
+  height: 100%;
+}
+.pagescroll .swiper-slide {
+  height: auto;
+}
+.pagescroll .swiper-scrollbar {
+  height: 100%;
+  width: 24px;
+  top: 0;
+  right: 0;
+  opacity: 1 !important;
+  border-radius: 0;
+  background: transparent;
+}
+.pagescroll .swiper-scrollbar:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 8px;
+  top: 0;
+  right: 0;
+  background: white;
+  transition: 0.6s all;
+  z-index: 1;
+}
+.pagescroll .swiper-scrollbar:hover:after {
+  width: 18px;
+  transition: 0.2s all;
+}
+.pagescroll .swiper-scrollbar-drag {
+  position: absolute;
+  width: 8px;
+  left: auto;
+  right: 0;
+  margin: 0;
+  border-radius: 0;
+  background: crimson;
+  transition: 0.6s all !important;
+  z-index: 2;
+}
+.pagescroll .swiper-scrollbar:hover .swiper-scrollbar-drag {
+  width: 18px;
+  transition: 0.2s all !important;
+}
+
+.events {
+  width: 70%;
+  max-width: 600px;
+  margin:auto;
+  margin-top: 30px;
+}
+.events p {
+  margin: 20px 0;
+}
+.list {
+}
+.list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-top: 1px solid #e8e8e8;
+  transition:1s all;
+  cursor: pointer;
+}
+.list-item:last-child {
+  border-bottom: 1px solid #e8e8e8;
+}
+.overlay .list-item {
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    transform: translateX(50%);
+}
+.list-item:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: -20px;
+  padding:0 20px;
+  background: transparent;
+  box-shadow: 0 0 2px rgba(0,0,0,0);
+  transition: 0.3s all;
+  transform: scaleY(0.1);
+  z-index: 1;
+}
+.home .list-item:hover:after {
+  transform: scaleY(1);
+  background: crimson;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+.list-item > * {
+  position: relative;
+  z-index: 2;
+}
+.list-item .date {
+  width: 20%;
+  margin-left: -20%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  text-align:center;
+}
+.overlay .list-item .date {
+  color:white;
+}
+.home .list-item:hover .date {
+  color:crimson;
+}
+.list-item .date-day {
+  font-size: 30px;
+}
+.list-item .info {
+  padding:20px;
+  margin-left:-20px;
+}
+.home .list-item:hover .info,
+.overlay .list-item .info {
+  color:white;
+  transition: 0.3s all;
+}
+.list-item .info-time {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.list-item .info-title {
+  font-size: 24px;
+  line-height: 140%;
+}
